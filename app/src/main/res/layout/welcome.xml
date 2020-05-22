@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:padding="40dp"
+    android:background="@drawable/start_bg">
+
+    <ImageView
+        android:id="@+id/startImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/global"
+        android:contentDescription="@string/startImgDesp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_refresh"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:background="@drawable/btn_bottom_confirm_bg"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="@string/btn_refresh"-->
+        <!--android:textSize="17sp"-->
+        <!--android:layout_marginTop="400dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_gravity="bottom|center" />-->
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:background="@drawable/btn_bottom_confirm_bg"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_register"
+        android:textSize="17sp"
+        android:layout_marginTop="450dp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:layout_gravity="bottom|center" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:background="@drawable/btn_bottom_confirm_bg"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/startMap"
+        android:textSize="17sp"
+        android:layout_marginTop="500dp"
+        android:textAlignment="center"
+        android:layout_gravity="bottom|center" />
+
+    <TextView
+        android:id="@+id/tv_stay"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="剩余 200 天可用"
+        android:textSize="17sp"
+        android:textColor="@color/aqua"
+        android:layout_marginTop="550dp"
+        android:textAlignment="center"
+        android:layout_gravity="bottom|center" />
+</RelativeLayout>
